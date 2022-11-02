@@ -1,0 +1,8 @@
+{
+	"name": "Dima",
+	"surname": "Zhuravlov",
+	"summary": "Even from school, I had an inclination towards such subjects as mathematics and physics. But after school, it happened that I turned to the path of humanities and after university, I worked in the field of sales. After the pandemic, I reconsidered my plans for the future and decided to master the field that I understand and to which I have an inclination. At the moment, I have been learning the frontend for about 5 months.",
+	"experience": { "Sales Manager": 6 },
+	"hobbies": ["basketball", "football", "swimming"],
+	"pics": ["../public/basket.png", "../public/foot.png", "../public/swim.png"]
+}

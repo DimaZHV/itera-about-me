@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import user from "./info.json";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<div
+				style={{
+					width: "1100px",
+					margin: "0 auto",
+					fontSize: 35,
+					backgroundColor: "#1FCD70",
+				}}
+				className="wrapper"
+			>
+				<h1>About me!</h1>
+				<div>Name: {user.name}</div>
+				<div>Surname: {user.surname}</div>
+				<div>{user.summary}</div>
+				<div>
+					{`I worked on position ${Object.keys(user.experience)[0]}
+				${user.experience["Sales Manager"]} years`}
+				</div>
+				{`I like active and contact sports so my hobbies are: ${user.hobbies.join(
+					", "
+				)}`}
+			</div>
+		</div>
+	);
 }
 
 export default App;
