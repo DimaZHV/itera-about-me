@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itera-about-me/static/css/main.80a6d679.css",
+    "main.js": "/itera-about-me/static/js/main.5260d01e.js",
+    "static/js/787.bf6be429.chunk.js": "/itera-about-me/static/js/787.bf6be429.chunk.js",
+    "index.html": "/itera-about-me/index.html",
+    "main.80a6d679.css.map": "/itera-about-me/static/css/main.80a6d679.css.map",
+    "main.5260d01e.js.map": "/itera-about-me/static/js/main.5260d01e.js.map",
+    "787.bf6be429.chunk.js.map": "/itera-about-me/static/js/787.bf6be429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80a6d679.css",
+    "static/js/main.5260d01e.js"
+  ]
+}
